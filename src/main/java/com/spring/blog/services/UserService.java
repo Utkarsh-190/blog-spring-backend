@@ -9,7 +9,7 @@ import jakarta.websocket.server.ServerEndpoint;
 public interface UserService {
 	
 	UserDTO createUser(UserDTO user);
-	UserDTO updataUser(UserDTO user, Integer userId);
+	UserDTO updateUser(UserDTO user, Integer userId);
 	UserDTO getUserById(Integer userId);
 	List<UserDTO> getAllUsers();
 	void deleteUser(Integer userId);
